@@ -1,0 +1,18 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.spinner {
+    height: 25px !important;
+    width: 25px !important;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    animation: rotation 1s infinite linear;
+}
