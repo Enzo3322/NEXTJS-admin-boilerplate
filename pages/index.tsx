@@ -28,14 +28,14 @@ export default function Login() {
       </Head>
       <main className={styles.mainLogin}>
         <form className={styles.form} onSubmit={handleSubmit}>
-          <h1>Sign in.</h1>
+          <h1>Pan Tech</h1>
           <div>
             <label htmlFor="email">Email</label>
             <input type="text" placeholder='Email' name='email' required />
           </div>
           <div>
-            <label htmlFor="password">Senha</label>
-            <input type="password" placeholder='Senha' name='password' required minLength={5} />
+            <label htmlFor="password">Password</label>
+            <input type="password" placeholder='Password' name='password' required minLength={5} />
           </div>
           <button type='submit'>{loginLoading ? <Spinner /> : 'Sign in'}</button>
         </form>

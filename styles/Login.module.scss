@@ -1,3 +1,5 @@
+@import './variable.scss';
+
 .mainLogin {
     display: flex;
     height: 100vh;
@@ -19,8 +21,11 @@
 
         h1 {
             margin-bottom: 40px;
-            font-size: 2rem;
-            font-weight: 600;
+            font-size: 2.4rem;
+            font-weight: 700;
+            background: $lg;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         div {
@@ -48,7 +53,7 @@
             width: 100%;
             padding: 15px;
             border-radius: 6px;
-            background: linear-gradient(15deg, #bb3fdd, #fe9f7c);
+            background: $lg;
             border: 0;
             color: #fff;
             font-weight: 700;
